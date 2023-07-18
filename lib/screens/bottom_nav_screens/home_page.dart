@@ -1,5 +1,6 @@
 import 'package:easy_search_bar/easy_search_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:shopzilla/widgets/curosel_container.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -22,6 +23,11 @@ class _HomePageState extends State<HomePage> {
               icon: const Icon(Icons.shopping_cart_outlined), onPressed: () {}),
           IconButton(
               icon: Icon(Icons.account_circle_outlined), onPressed: () {}),
+        ],
+      ),
+      body: ListView(
+        children: [
+          CuroselConatiner(),
         ],
       ),
     );

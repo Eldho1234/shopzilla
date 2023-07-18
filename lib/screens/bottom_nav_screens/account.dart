@@ -22,7 +22,7 @@ class AccountPage extends StatelessWidget {
           ),
         ),
         SizedBox(
-          height: size.height * 0.05,
+          height: size.height * 0.02,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
